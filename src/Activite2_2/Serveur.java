@@ -32,21 +32,21 @@ public class Serveur {
 		     
 		     int op1= operation.getOp1();
 		     int op2= operation.getOp2();
-		     char op= Operation.getOp();
+		     char op= operation.getOp();
 		       
 		     int result;
 		     
 		     switch(op) {
-		     case "+": 
+		     case '+': 
 		    	 	result=op1+op2;
 		    	 	break;
-		     case "-":
+		     case '-':
 		    	 	result=op1-op2;		       
 		    	 	break;
-		     case "*":
+		     case '*':
 		    	 	result=op1*op2;			       
 		    	 	break;
-			 case "/":
+			 case '/':
 			    	 result=op1/op2;			       
 			    	 break;}
 		     
